@@ -10,12 +10,11 @@ const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
 const db = knex({
-  // Enter your own database information here based on what you created
   client: 'pg',
   connection: {
       host : '127.0.0.1',
       user : 'postgres',
-      password : 'tomtln1994',
+      password : '',
       database : 'ztmproject'
   }
 });
